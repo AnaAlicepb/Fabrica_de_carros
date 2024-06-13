@@ -3,36 +3,36 @@ package car;
 public class Toyota implements Car {
     @Override
     public int getHorsePower() {
-        return 200;
+        return 200; // Retorna a potência do Toyota
     }
 
     @Override
     public String getFuelSource() {
-        return "Hybrid";
+        return "Híbrido"; // Retorna a fonte de combustível do Toyota
     }
 
     @Override
     public String getColor() {
-        return "White";
+        return "Branco"; // Retorna a cor do Toyota
     }
 
     @Override
     public void startEngine() {
-        System.out.println("Toyota engine started.");
+        System.out.println("Motor do Toyota ligado."); // Mensagem que indica que o motor do Toyota foi ligado
     }
 
     @Override
     public void clean() {
-        System.out.println("Cleaning Toyota.");
+        System.out.println("Limpando o Toyota."); // Mensagem que indica que o Toyota está sendo limpo
     }
 
     @Override
     public void mechanicCheck() {
-        System.out.println("Toyota mechanic check.");
+        System.out.println("Verificação mecânica do Toyota."); // Mensagem que indica que a verificação mecânica do Toyota está sendo realizada
     }
 
     @Override
     public void fuelVehicle() {
-        System.out.println("Fueling Toyota.");
+        System.out.println("Abastecendo o Toyota."); // Mensagem que indica que o Toyota está sendo abastecido
     }
 }

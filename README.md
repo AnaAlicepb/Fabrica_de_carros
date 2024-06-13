@@ -11,7 +11,7 @@
 
 <header>
     <h1>Fábrica de Carros - Padrão de Projeto Abstract Factory</h1>
-    <img src="./CarFactoryProject/img/carros.png" alt=" Carros" width="300" height="auto">
+    <img src="./CarFactoryProject/img/fabricadecarros.png" alt=" Carros" width="300" height="auto">
 </header>
 
 <details>

@@ -3,6 +3,7 @@ package factory;
 import car.Car;
 
 public interface Factory {
-    Car create(String model);
-    void service(Car car);
+    // Interface Factory que define os métodos para criar e servir um carro
+    Car create(String carType); // Método para criar um carro
+    void service(Car car); // Método para servir um carro
 }
